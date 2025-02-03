@@ -1,3 +1,48 @@
     1  git init\n
     2  git add history marco.sh\n
     3  touch history
+git add history marco.sh\
+git commit -m "Initial commit"\
+
+echo "up, down, strange, charm" > quarks\
+git add quarks\
+git commit -m "Add light quarks"\
+
+git switch -c merge-conflict\
+
+echo ", truth, beauty" >> quarks\
+git add quarks\
+git commit -m "Add heavy quarks"\
+
+git switch main\
+
+echo ", top, bottom" >> quarks\
+git add quarks\
+git commit -m "Add third generation quarks"\
+
+git merge merge-conflict\
+
+git add quarks
+git commit -m "merge conflict fixed"
+history -a 
+git add histor
+git add history
+git commit -m "shell update"
+git bundle create ss-hw1.bundle --all\
+
+sed -i '' '/export HISTFILE/d' ~/.zshrc
+source ~/.zshrc
+git status
+git add ss-hw1.bundle
+git status
+git push
+ls
+ls
+history -a 
+git add history\
+
+ls
+history -w history\
+
+fc -W history\
+
